@@ -8,7 +8,7 @@ body
 nav 
     min-height: 50px
     background-color: #ffffff
-    max-width: 1000px
+    max-width: 1240px
     width: 100%
     display: flex
     align-items: center
@@ -51,7 +51,7 @@ nav
     .login-menu > div
         margin: 0 10px
 #label
-    background-image: url(dude.webp)
+    background-image: url(images/label.webp)
     background-position: center center
     background-size: cover
     background-repeat: no-repeat
@@ -131,7 +131,68 @@ nav
     .customer-stats
         margin-left: 40px
     
+#categories
+    width: 80%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    .categories_header
+        display: flex   
+        color: #2a2a2a
+        font-family: 'Lato', sans-serif
+        font-weight: 700
+        font-size: 28px
+        margin: 0 20px
+        justify-self: left
+        width: 100%
+    .categories_swiper
+        display: flex
+        justify-content: space-between
+        margin: 30px 20px
+        padding: 0 0
+        .living-room
+            background-image: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.5) ), url(images/living-room.webp)
+        .bedroom
+            background-image: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.5) ), url(images/bedroom.jpg)
+        .kitchen
+            background-image: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.5) ), url(images/kitchen.jpg)
+        .bathroom
+            background-image: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.5) ), url(images/bathroom.jpg)
+        .categories_card
+            background-repeat: no-repeat
+            background-position: center center
+            background-size: cover
+            display: flex
+            width: 300px
+            height: 350px
+            justify-content: flex-end
+            align-content: flex-end
+            flex-direction: column
+            list-style: nones
+            margin-right: 30px
+            text-align: center
+            color: #ffffff
+            border-radius: 10px
+            padding: 10px 10px
+            .inner
+                display: flex
+                flex-direction: column
+                background-color: rgba(252, 252, 252, 0.37)
+                border-radius: 10px
+                padding: 15px 15px
+                backdrop-filter: blur(4px)
+                .categories_card-text
+                    font-family: 'Lato', sans-serif
+                    font-weight: 700
+                    font-size: 28px
+                .smaller
+                     font-size: 18px
+                
+                
+            
 
+            
+        
 
 
 
