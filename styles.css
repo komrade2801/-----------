@@ -190,7 +190,8 @@ nav .login-menu > div {
   position: relative;
   display: flex;
   width: 24%;
-  height: 22vw;
+  min-height: 230px;
+  min-width: 180px;
   align-items: center;
   flex-direction: column;
   list-style: nones;
@@ -219,7 +220,6 @@ nav .login-menu > div {
 .categories .categories_swiper .categories_card .best-furniture {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  height: 300px;
 }
 .categories .categories_swiper .categories_card .description-card {
   display: flex;
