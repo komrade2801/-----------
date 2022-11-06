@@ -3,11 +3,12 @@ body
     display: flex
     align-items: center
     justify-content: center
+    justify-items: center
     flex-direction: column 
     background-color: #ffffff
     font-family: 'Lato', sans-serif
 nav 
-    min-height: 50px
+    min-height: 5vh
     background-color: #ffffff
     max-width: 1240px
     width: 100%
@@ -17,14 +18,7 @@ nav
     font-family: 'Poppins', sans-serif
     padding: 20px 0
     white-space: nowrap
-    .logo
-        font-size: 30px
-        .logo-black 
-            color: black
-            position: relative
-            left: 5px
-        .logo-green
-            color: #588733
+    
     .menu
         display: flex
         .menu__link
@@ -53,13 +47,21 @@ nav
                 padding: 10px 25px
     .login-menu > div
         margin: 0 10px
+.logo
+        font-size: 30px
+        .logo-black 
+            color: black
+            position: relative
+            left: 5px
+        .logo-green
+            color: #588733
 .label
     background-image: url(images/label.webp)
     background-position: center center
     background-size: cover
     background-repeat: no-repeat
     width: 100%
-    height: 60vw
+    height: 95vh
     display: flex
     flex-direction: column
     align-items: center
@@ -152,15 +154,16 @@ nav
         width: 100%
     .categories_swiper
         display: flex
-        justify-content: space-between
+        justify-content: center
         margin: 30px 20px
         padding: 0 0
+        
         .categories_card
             position: relative
             display: flex
-            width: 24%
+            width: 15vw
             min-height: 230px
-            min-width: 180px
+            min-width: 160px
             align-items: center
             flex-direction: column
             list-style: nones
@@ -232,7 +235,9 @@ nav
                     color: #ffffff
                     text-align: center
                 .smaller
-                     font-size: 14px
+                     font-size: 14px    
+        ._last
+            margin-right: 0px       
 .about
     display: flex
     width: 100%
